@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".VolumeFragment"
+    android:layout_margin="100px">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100px">
+
+        <LinearLayout
+            android:id="@+id/LL_fragmentVolume_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100px">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Balok"
+                android:textSize="25dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LL_fragmentVolume_2"
+            app:layout_constraintTop_toBottomOf="@+id/LL_fragmentVolume_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/editText_sideCube"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Input sisi"
+                android:textSize="16dp" />
+
+
+            <TextView
+                android:layout_marginLeft="100px"
+                android:id="@+id/text_resCube"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hasil"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/button_calcCube"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hitung"
+                android:textSize="10dp"
+                android:layout_marginLeft="100px"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="100px"
+            app:layout_constraintTop_toBottomOf="@+id/LL_fragmentVolume_2"
+            android:id="@+id/LL_fragmentVolume_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Piramid"
+                android:textSize="25dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            app:layout_constraintTop_toBottomOf="@+id/LL_fragmentVolume_3"
+            android:id="@+id/LL_fragmentVolume_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/editText_baseLenPyramid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Input panjang"
+                android:textSize="16dp"
+
+                />
+
+            <EditText
+                android:id="@+id/editText_baseWidPyramid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Input lebar"
+                android:textSize="16dp"
+
+                />
+
+            <EditText
+                android:id="@+id/editText_heightPyramid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Input tinggi"
+                android:textSize="16dp"
+                />
+
+            <TextView
+                android:id="@+id/text_resPyramid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hasil"
+                android:layout_marginLeft="50px" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LL_fragmentVolume_5"
+            app:layout_constraintTop_toBottomOf="@+id/LL_fragmentVolume_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/button_calcPyramid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hitung"
+                android:textSize="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="100px"
+            app:layout_constraintTop_toBottomOf="@+id/LL_fragmentVolume_5"
+            android:id="@+id/LL_fragmentVolume_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tabung"
+                android:textSize="25dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            app:layout_constraintTop_toBottomOf="@+id/LL_fragmentVolume_6"
+            android:id="@+id/LL_fragmentVolume_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/editText_radiusCylinder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Input radius"
+                android:textSize="16dp"
+
+                />
+
+            <EditText
+                android:id="@+id/editText_heightCylinder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Input tinggi"
+                android:textSize="16dp"
+
+                />
+
+            <TextView
+                android:id="@+id/text_resCylinder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hasil"
+                android:textSize="16dp"
+                android:layout_marginLeft="50px"/>
+
+            <Button
+                android:layout_marginLeft="50px"
+                android:id="@+id/button_calcCylinder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hitung"
+                android:textSize="10dp"
+                />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</FrameLayout>

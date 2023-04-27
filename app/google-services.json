@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "743071742134",
+    "project_id": "lntmobile-finalproject-kenneth",
+    "storage_bucket": "lntmobile-finalproject-kenneth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:743071742134:android:ae0418e8943e3909064e17",
+        "android_client_info": {
+          "package_name": "com.example.lntmobile_finalproject_kenneth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "743071742134-9m8ted3q583sa27tta29l0il7jbf8s49.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdufUOSsKA6iN1YSRfklPzJpuakHS5YFk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "743071742134-9m8ted3q583sa27tta29l0il7jbf8s49.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

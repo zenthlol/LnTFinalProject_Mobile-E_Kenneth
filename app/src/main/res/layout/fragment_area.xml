@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AreaFragment"
+    android:layout_margin="100px">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100px"
+        >
+
+        <LinearLayout
+            android:layout_marginTop="100px"
+            android:id="@+id/LL_fragmentArea_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Persegi"
+                android:textSize="25dp"
+                />
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            app:layout_constraintTop_toBottomOf="@+id/LL_fragmentArea_1"
+            android:id="@+id/LL_fragmentArea_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/editText_baseSquare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Input sisi"
+                android:textSize="16dp"
+
+
+                />
+            <TextView
+                android:id="@+id/text_resSquare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50px"
+                android:text="Hasil"
+                android:textSize="16dp" />
+            <Button
+                android:id="@+id/button_calcSquare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hitung"
+                android:textSize="10dp"
+                android:layout_marginLeft="100px"
+                />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <LinearLayout
+            android:id="@+id/LL_fragmentArea_3"
+            app:layout_constraintTop_toBottomOf="@id/LL_fragmentArea_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100px">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Segitiga"
+                android:textSize="25dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LL_fragmentArea_4"
+            app:layout_constraintTop_toBottomOf="@+id/LL_fragmentArea_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/editText_baseTriangle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Input alas"
+                android:textSize="16dp"/>
+
+            <EditText
+                android:id="@+id/editText_heightTriangle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Input tinggi"
+                android:textSize="16dp"
+                android:layout_marginLeft="25px"
+                />
+
+            <TextView
+                android:layout_marginLeft="25px"
+                android:id="@+id/text_resTriangle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hasil"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/button_calcTriangle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hitung"
+                android:textSize="10dp"
+                android:layout_marginLeft="50px"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="100px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/LL_fragmentArea_5"
+            app:layout_constraintTop_toBottomOf="@+id/LL_fragmentArea_4">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lingkaran"
+                android:textSize="25dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/LL_fragmentArea_5"
+            android:id="@+id/LL_fragmentArea_6">
+
+            <EditText
+                android:id="@+id/editText_radiusCircle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Input radius"
+                android:textSize="16dp"
+
+                />
+
+
+            <TextView
+                android:id="@+id/text_resCircle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hasil"
+                android:textSize="16dp"
+                android:layout_marginLeft="50px"
+                />
+
+            <Button
+                android:id="@+id/button_calcCircle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hitung"
+                android:textSize="10dp"
+                android:layout_marginLeft="100px"
+
+                />
+
+        </LinearLayout>
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</FrameLayout>
